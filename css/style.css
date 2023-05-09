@@ -1,0 +1,9 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+.div1{margin-left: 100px;
+margin-top: 50px;}
+.div2{margin-left: 40px;margin-top: 40px;}
+.div3{margin-left: 40px;margin-top: 20px;}
+.div5{margin-top: 130px;}

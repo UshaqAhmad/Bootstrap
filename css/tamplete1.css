@@ -1,0 +1,147 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+
+
+
+.div1{
+    position: relative;
+margin: 0 auto;
+    border: 5px solid black;
+background-color: white;
+height: 400px;
+width:800px;
+margin-top: 50px;
+
+
+
+
+}
+.div2{
+    position: absolute;
+  
+        border: 5px solid gray;
+    background-color: blue;
+    height: 330px;
+    width: 700px;
+    margin-top: 60px;
+margin-left: 45px; }
+    .div3{
+        position: absolute;
+        background-color: white;
+        width: 650px;
+        height: 300px;
+        border: 5px solid gray;
+        margin-left: 20px;
+        margin-top: 20px;
+
+    }
+    .div4{position: absolute;
+    background-color: aqua;
+    height:150px ;
+    width: 640px; margin-top: 140px;
+     }
+     .div5{position: absolute;
+        background-color: gold;
+        height: 30px;
+        width: 180px;
+        border-radius: 5px; 
+        margin-left: 20px;
+        margin-top: 20px; }
+        .div6{position: absolute;
+            background-color: indigo;
+            height: 30px;
+            width: 180px;
+            border-radius: 5px; 
+            margin-left: 420px;}
+            .div7{position: absolute;
+                background-color: magenta;
+                height: 30px;
+                width: 100px;
+                border-radius: 5px; 
+             margin-left: 260px;
+             margin-top: 50px; }
+             .div8{position: absolute;
+                background-color: red;
+                height: 30px;
+                width: 350px;
+                border-radius: 5px; 
+             margin-left: 150px;
+             margin-top: 100px; }
+             .div9{position: absolute;
+                background-color: white;
+                height: 130px;
+                width: 200px;margin-top: 10px;margin-left: 20px; }
+                .div10{position: absolute;
+                    background-color: chartreuse;
+                    height: 30px;
+                    width: 90px;
+                    border-radius: 5px; 
+                 margin-left: 5px;
+                 margin-top: 15px}
+                 .div11{position: absolute;
+                    background-color: black;
+                    height: 30px;
+                    width: 90px;
+                    border-radius: 5px; 
+                 margin-left: 105px;
+                 margin-top: 15px}
+                 .div12{position: absolute;
+                    background-color: blue;
+                    height: 30px;
+                    width: 190px;
+                    border-radius: 5px; 
+                 margin-left: 5px;
+                 margin-top: 95px}
+.div13{position: absolute;
+    background-color: white;
+    height: 140px;
+    width: 250px;
+    
+    margin-left: 360px;
+    margin-top: 5px;}
+    .div14{position: absolute;
+        background-color: red;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px; 
+     margin-left: 10px;
+     margin-top: 10px}
+     .div15{position: absolute;
+        background-color: green;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px; 
+     margin-left: 10px;
+     margin-top: 60px}
+     .div16{position: absolute;
+        background-color: blue;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px; 
+     margin-left: 10px;
+     margin-top: 105px}
+     .div17{position: absolute;
+        background-color: purple;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px; 
+     margin-left: 150px;
+     margin-top: 10px}
+     .div18{position: absolute;
+        background-color: sienna;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px; 
+     margin-left: 150px;
+     margin-top: 60px}
+     .div19{position: absolute;
+        background-color: hotpink;
+        height: 30px;
+        width: 90px;
+        border-radius: 5px; 
+     margin-left: 150px;
+     margin-top: 105px}    
+        

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aqua;
+}
+.img{
+height: 500px;
+width: 500px;
+clip-path: polygon(32% 0, 100% 0, 75% 12%, 100% 15%, 100% 100%, 0 100%, 0 0);
+
+}

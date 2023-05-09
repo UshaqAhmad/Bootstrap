@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* .boxes {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-color: green;
+}
+
+.box {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    animation-name: movebox;
+    animation-duration:   5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes movebox {
+
+    0% {
+        top: 0;
+        left: 0;
+        background-color: red;
+
+    }
+
+    20% {
+        top: 0px;
+        left: 200px;
+        background-color: pink;
+        opacity: 0;
+    }
+
+    40% {
+        top: 0px;
+        left: 400px;
+        background-color: orange;
+    }
+
+    60% {
+        top: 0px;
+    }
+
+    80% {
+        left: 90%;
+        bottom: 0px;
+        background-color: aqua;
+    }
+    90%{ bottom: 0px;
+    right: 900px;
+background-color: antiquewhite;}
+
+    100% {
+        bottom: 0px;
+        right: 1100px;
+        top: 300px;
+        background-color: blue;
+
+    }
+} */
+.boxes{
+    position: relative;
+    background-color: green;
+    height: 100vh;
+    width: 100%;
+
+}
+.box1{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    animation-name: animation-1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    padding: 100px;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+.box2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    animation-name: animation-2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    padding: 0px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    
+}
+@keyframes animation-1{
+0%{top: 0px;
+    left: 400px;
+background-color: blue ;
+}
+30%{
+    top: 0px;
+    left: 900px;
+    background-color: aqua;
+    
+}
+50%{
+   
+    bottom: 0px;
+    left: 1200px;
+    background-color: yellowgreen;
+}
+70%{
+bottom: 0px;
+right: 1220px;
+background-color: bisque;
+
+}
+100%{
+    right: 1220px;
+    bottom: 450px;
+    background-color: violet;
+}
+
+
+
+}
+@keyframes animation-2{
+    0%{top: 0px;
+        left: 400px;
+    background-color: blue ;
+    }
+    30%{
+        top: 0px;
+        left: 900px;
+        background-color: aqua;
+        
+    }
+    50%{
+       
+        bottom: 0px;
+        left: 1000px;
+        background-color: yellowgreen;
+    }
+    70%{
+    bottom: 0px;
+    right: 1020px;
+    background-color: bisque;
+    
+    }
+    100%{
+        right: 1020px;
+        bottom: 450px;
+        background-color: violet;
+    }
+}
+

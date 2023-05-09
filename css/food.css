@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar  */
+.nav {position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 100px;
+
+}
+.ul-list{position: absolute;}
+    
+.ushaq{ height: 80px;
+    width: 100px;
+    background-color: aliceblue;
+    position: absolute;
+    animation-name: ushaq;
+    animation-duration:   1s;
+    animation-iteration-count: infinite;
+    border-radius: 30px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    
+    padding: 20px;
+    margin-top:10px;
+}
+
+
+ @keyframes ushaq{ 
+    0%{ top: 0;
+    left: 0;
+background-color: black;
+color: aqua;}
+50%{ top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color:sandybrown;
+color: yellow;}
+100%{ top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color:brown;
+color: white;
+}
+
+
+ }
+
+ul {
+    
+    display: flex;
+    gap: 150px;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+li {
+   
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    font-family: sans-serif;
+
+}
+
+/* pizza img  */
+.img-part {
+    flex-wrap: wrap;
+    height: 500px;
+
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1590587291phpHwgXL2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.homebtn {
+   
+    text-decoration: none;
+    color: black;
+}
+
+.button-order-now {
+   
+      display: flex;
+    justify-content: center;
+    padding: 250px;
+
+
+}
+
+
+
+.ordernow {
+    
+    border: 2px solid aqua;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: larger;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.btn2:hover {
+    background-color: red;
+}
+
+/* over best food section. */
+.best-food-cards {
+    height: 120vh;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.text-card-1 {
+    flex-wrap: wrap;
+  
+    text-align: center;
+    height: 50vh;
+    width: 50%;
+    padding: 200px;
+    gap: 230px;
+}
+
+.text-img-2 {
+    
+    height: 50vh;
+    width: 50%;
+}
+
+.dec1 {
+   
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.btn2 {
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: white;
+    padding: 10px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/* three card section. */
+.food-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100vh;
+    background-color: oldlace;
+}
+
+.food-card1 {
+    width: 30%;
+    height: 450px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1600710930phpWsDqff.webp);width: 400px;height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.food-card2 {
+    width: 30%;
+    height: 450px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1600710930php2uaq6V.webp);width: 400px;height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.food-card3 {
+    width: 30%;
+    height: 450px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1600710930phpMHjTPj.webp);width: 400px;height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btns {
+    display: flex;
+    gap: 300px;
+
+}
+
+
+.btn3 {
+    text-decoration: none;
+    border: 2px solid aqua;
+    color: white;
+    padding: 10px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+
+
+}
+
+.btn3:hover {
+    background-color: red;
+}
+
+/* sweet memories  */
+.sweet-memories { flex-wrap: wrap;
+    height: 250px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/hyert.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 60px;
+
+
+}
+
+/* dishes cards  */
+.dishes-cards {
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+
+
+.dish-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+
+}
+
+.dishes-card1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1600710930phpXCUQF5.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dishes-card2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1600710930php15u8wM.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dishes-card3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(https://caspeerr.com/wp-content/uploads/2022/10/1600710930phpHO4Rot.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btns-dishes { 
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.btn5 {
+    text-decoration: none;
+    border: 2px solid aqua;
+    color: white;
+    padding: 10px;
+    background-color: aqua;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+
+
+}
+
+.btn5:hover {
+    background-color: red;
+}
+
+/* end section.  */
+
+.end-section { flex-wrap: wrap;
+    height: 300px;
+    background-color: black;
+}
+
+.text h3 {
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.text {
+    padding: 30px;
+}
+
+.last-home-etc {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+ 
+}
+
+.last-home-etc h3 {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+                                                               /* responsive practise  */
+@media only screen and (max-width:768px){.best-food-cards {
+    height: 50vh;
+    width: 50%;
+    background-color: aqua;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.text-card-1 {
+  
+    text-align: center;
+    height: 50vh;
+    width: 50%;
+    padding: 100px;
+    gap: 100px;
+    background-color: blue;}
+
+    
+} 
+                                /* three card section ki setting ki  */
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+                                       /* yahan tk three card section ki setting  */

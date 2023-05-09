@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    position: relative;
+    border: 3px solid black;
+    height: 90vh;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: gray;
+}
+
+.div2 {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+}
+
+.div3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 750px;margin-top: 20px;
+}
+
+.div4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 790px;margin-top: 20px;
+}
+
+.div5{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 830px;margin-top: 20px;
+}
+
+.div6{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 870px;
+    margin-top: 20px;
+}
+.div7{position: absolute;
+    width: 470px;
+    height: 35px;
+    background-color: black;
+    margin-top: 60px}
+    .div8{position: absolute;
+        width: 470px;
+        height: 35px;
+        background-color: darkolivegreen;
+    margin-left: 448px;
+margin-top: 60px;}
+.div9{position: absolute;
+background-color: aqua;height: 25px;width: 150px;
+margin-left: 300px;
+margin-top: 5px;}
+.div10{
+position: absolute;
+height: 170px;
+width: 100%;
+background-color: gold;
+margin-top: 95px;
+}
+.div11{position: absolute;
+height: 150px;
+width: 80%;
+background-color: black;
+margin-left: 100px;margin-top: 10px;
+}
+.div12{position: absolute;
+width: 100%;
+height: 20px;background-color: blue;
+margin-top: 130px; z-index: 1;
+}
+.div13{position: absolute;
+background-color: gold;
+width: 90px;
+height: 20px;
+border-radius: 5px;margin-top: 100px;margin-left: 5px;}
+.div14{position: absolute;
+    background-color: gold;
+    width: 90px;
+    height: 20px;
+    border-radius: 5px;margin-top: 100px;margin-left: 120px;}
+    .div15{position: absolute;
+    height: 130px;
+width: 16%;background-color: white;
+margin-left: 80%;border-radius: 5px; border: 2px solid green;
+margin-top: 5px;z-index: 2;}
+.div16{position: absolute;
+    height: 130px;
+    width: 96%;
+    background-color: white;
+    margin-top: 15px;margin-right: 300px;z-index: 3;border-radius: 5px; border: 1px solid black;}
+    .div17{
+
+        position: absolute;
+        background-color: white;
+
+    width: 100%;
+    height: 170px;
+    margin-top: 164px;
+    }
+    .div18{position: absolute;
+        background-color: antiquewhite;
+        border: 2px solid black;border-radius: 5px;
+        height: 170px;
+        width: 50%;
+
+    }
+    .div19{position: absolute;
+    background-color: greenyellow;
+height: 50px;
+width: 80%;
+border: 1px solid black;border-radius: 5px;
+margin-top: 115px;
+margin-left: 30px;}
+.div20{
+    position: absolute;
+    background-color: darkorchid;
+    width: 40%;
+    height: 130px;
+    margin-left: 500px;margin-top: 20px;border: 2px solid black;border-radius: 5px;
+}
+.div21{ position: absolute;
+background-color:black;
+width: 100%;
+height: 40px;}
+.btn1{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 20px;}
+.btn2{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 30px;}
+.btn3{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 40px;}
+.btn4{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 50px;}
+.btn5{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 20px;}
+.btn6{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 30px;}
+.btn7{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 40px;}
+.btn8{font-weight: bold;margin-top: 10px;background-color: black;color: white; border: 1px solid black;margin-left: 50px;}
+.btn1:hover{background-color: brown;}
+.btn2:hover{background-color: brown;}
+.btn3:hover{background-color: brown;}
+.btn4:hover{background-color: brown;}
+.btn5:hover{background-color: brown;}
+.btn6:hover{background-color: brown;}
+.btn7:hover{background-color: brown;}
+.btn8:hover{background-color: brown;}
