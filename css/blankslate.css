@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-header1{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
+width: 100%;
+background-repeat: no-repeat;
+background: cover;
+opacity: 1;
+
+     background-image: url(../assets/slider-4\ \(2\).jpg)
+    }
+.content{
+    width: 50%;
+}
+.btn-1-0{
+    padding: 10px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+.navbar{ display: flex;
+    opacity: 0.5;
+    margin-top: 20px;
+    height: 60px;
+}
+.pic-blankstate{
+    width: 30%;
+    height: 50px;
+ 
+}
+.item-list{
+    width: 70%;
+    height: 50px;
+    
+}
+.wrap{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
